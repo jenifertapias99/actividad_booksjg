@@ -1,0 +1,52 @@
+/* declarar unas variables de colores y fuentes */
+:root{
+    /* fuentes */
+    --titulos:'Lato', sans-serif;
+    --parrafos:'Roboto',sans-serif;
+    /* colores corporativos */
+    --encabezado:#ec380b;
+    --piepagina:#000;
+    --enlace:#fff;
+    --enlaceSobre:#f3922b;
+
+}
+
+/* configuración global */
+h1,h2,h3,h4,h5,h6 {
+    font-family:var(--titulos);
+}
+/* selector universal en css es (*)  */
+*{
+    /* calcular mejor los paddings o espaciados */
+    box-sizing: border-box;
+}
+
+/* representacion de una clase en css es (.)  */
+/* Encabezado */
+.home-wrapper{
+    background-image: url(../images/background.jpg); 
+    background-size: cover;
+}
+
+header{
+    width: 100%;
+    background-color: var(Encabezado); position: fixed; /*elemento fijo*/
+    padding-top: 8px;
+
+}
+
+header nav{
+    float: right;
+    margin-left: 5px;
+    padding: 10px 2px;
+}
+
+header img{
+    width: 200px;
+
+}
+
+
+
+
+
